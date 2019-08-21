@@ -3,14 +3,20 @@
     line-height: 1.8;
     color: #f5f6f7;
   }
+  h1 {
+      color: #474e5d;
+  }
   p, a {font-size: 14px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
-    background-color: #245e7e; 
-    color: #d8e6ee;
+    /* background-color: #36425c;  */
+    background-image: linear-gradient(to top, rgba(113, 150, 204, 0.74), rgba(255, 255, 255, 0));
+    color: #474e5d;
   }
   .bg-2 { 
-    background-color: #474e5d; 
+    background-color: #3e527e;
+    /* background-image: linear-gradient(to bottom, rgba(255,250,250,0.4), rgba(255,250,250,1)); */
+
     color: #ffffff;
   }
   .bg-3 { 
@@ -38,7 +44,7 @@
     color: #31a4dd !important;
   }
   a {
-    color: #2cb9ff;
+    color: #59c8ff;
   }
   a:hover {
     color: white;
@@ -49,3 +55,10 @@
   .projects>a:hover {
       color: #31a4dd;
   }
+  .projectBox:hover {
+    transform: scale(1.02, 1.02)
+}
+.links>a {
+    /* color: #245e7e; */
+    padding: 0px 5px;
+}
