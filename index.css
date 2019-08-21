@@ -14,17 +14,20 @@
     color: #474e5d;
   }
   .bg-2 { 
-    background-color: #3e527e;
+    background-color: #eeeeee;
     /* background-image: linear-gradient(to bottom, rgba(255,250,250,0.4), rgba(255,250,250,1)); */
-
     color: #ffffff;
+  }
+  .bg-2>p {
+      color: #555555;
   }
   .bg-3 { 
     background-color: #ffffff; 
     color: #555555;
+    /* background-image: linear-gradient(to bottom, rgba(149, 180, 226, 0.74), rgba(255, 255, 255, 0)); */
   }
   .bg-4 { 
-    background-color: #2f2f2f; 
+    background-color: #474e5d; 
     color: #fff;
   }
   .container-fluid {
@@ -55,9 +58,9 @@
   .projects>a:hover {
       color: #31a4dd;
   }
-  .projectBox:hover {
+  /* .projectBox:hover {
     transform: scale(1.02, 1.02)
-}
+} */
 .links>a {
     /* color: #245e7e; */
     padding: 0px 5px;
