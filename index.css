@@ -3,7 +3,7 @@
     line-height: 1.8;
     color: #f5f6f7;
   }
-  p, a {font-size: 18px;}
+  p, a {font-size: 14px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
     background-color: #245e7e; 
@@ -31,14 +31,14 @@
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 5px;
   }
   .navbar-nav  li a:hover {
     color: #31a4dd !important;
   }
   a {
-    color: #9fdaf8;
+    color: #2cb9ff;
   }
   a:hover {
     color: white;
